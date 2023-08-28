@@ -1,0 +1,17 @@
+main {
+    background-color: #C9DBF2 !important;
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border: none !important;
+    background-color: #fff;
+    margin: 16px 0px;
+}
+
+.gradient-custom {
+    background: -webkit-linear-gradient(to right, rgba(225, 225, 255, 1), rgba(255, 236, 210, 1));
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1))
+}
