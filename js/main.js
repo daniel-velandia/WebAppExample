@@ -29,11 +29,10 @@ function geolocationError() {
 
 function renderWeather(data) {
 
-    let cards = document.getElementsByClassName("card");
+    let row = document.getElementById("row")
 
-    for (let i = 0; i < cards.length; i++) {
-        cards[i].classList.remove("d-none");
-    }
+    row.classList.remove("d-none");
+    
 
     let temp = document.getElementById("temp");
     let location = document.getElementById("location");
